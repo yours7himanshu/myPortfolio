@@ -44,13 +44,14 @@ nav ul li a{
     color: white;
     padding: 10px;;
 }
-nav ul li a :hover{
+nav ul li .a :hover{
     color: white;
     background-color: rgb(153,153,226);
     font-size: 1.04rem;
     border: 2px solid white;
     border-radius: 30px;
     animation-delay: 5s;
+    transition-delay: 10s;
 }
 #element{
     color: aqua;
@@ -75,7 +76,9 @@ hr{
     border: 0;
     background-color:rgb(153,153,226) ;
     height: 0.1px;
-    margin: 70px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
     
 }
 
@@ -103,9 +106,54 @@ span{
 }
 
 
-img{
+.main-image{
     width: 500px;
     height: 500px;
-    align-self: center;
+    align-self: ;
     
 }
+
+.second-section{
+    max-width: auto;
+    margin-left: 50px;
+    height: 80vh;
+   
+    
+}
+
+.second-section h1{
+   font-size: 3rem;
+  
+  
+}
+
+
+.second-section .horizontal-line{
+    background-color: white;
+    width: 170vh;
+    height: 2px;
+    margin: 56px 70px;
+    display: flex;
+    flex-direction: row;
+}
+.second-section .vertical-line{
+    display: flex;
+    justify-content: start;
+}
+.second-section .vertical{
+    height: 93px;
+    width: 1px;
+    margin: 0 150px;
+    background-color: white;  
+    display: flex;
+    justify-content: start;
+}
+
+  .image1{
+    height: 400px;
+    width: 400px;
+    margin: 30px 10px;
+    
+   
+    
+  }
