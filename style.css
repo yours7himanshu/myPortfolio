@@ -287,3 +287,29 @@ span{
     padding: 23px 122px;
     justify-content: space-evenly;
   } */
+
+  @media (max-width: 360px){
+    .first-section{
+
+        justify-content:space-around ;
+        align-items: center;
+        flex-direction: row;
+        width: 360px;
+
+    }
+  }
+
+  @media only screen and (max-width: 360px){
+   h1{ color: yellow;
+    margin: auto;
+    font-size: 2rem;
+    width: 320px;
+   }
+  }
+
+  @media (max-width: 360px){
+    p{
+        width: 320px;
+        margin: 10px;
+    }
+  }
