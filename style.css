@@ -288,70 +288,74 @@ span{
     justify-content: space-evenly;
   } */
 
-  @media only screen and (max-width: 360px){
+  @media only screen and (max-width: 720px){
     .section .first-section{
 
         justify-content:center;
         align-items: center;
         /* flex-direction: row; */
-        width: 360px;
+        width: 650px;
 
     }
   }
 
-  @media only screen and (max-width: 390px){
+  @media only screen and (max-width: 720px){
    .main-image{
-     height: 400px;
-     width: 400px;
+     height: 600px;
+     width: 600px;
    }
   }
 
 
 
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 720px){
 .first-section h1{ color: yellow;
     margin: ;
-    font-size: 2rem;
-    width: 300px;
+    font-size: 3rem;
+    width: 450px;
     align-self: center;
+    height: auto;
    }
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 720px){
     p{
-        width: 300px;
-      height: 160px;
+        width: 500px;
+      height: auto;
+      font-size: 1.5rem;
       align-self: center;
         margin: 10px;
+        margin-bottom: 20px;
     }
   }
  
-  @media only screen and (max-width:400px)
+  @media only screen and (max-width:720px)
   {
     .button{
-        width: 350px;
+        width: 550px;
+        hieght:auto;
         align-self: center;
     }
   }
 
 
-  @media only screen and (max-width:400px)
+  @media only screen and (max-width:720px)
   {
     .button1{
-        width: auto;
+        width: 250;
         height: 70px;
-        margin: 10px;
-        padding: 10px;
+        margin: 20px;
+        padding: 20px;
     }
   }
 
-  @media only screen and (max-width:400px)
+  @media only screen and (max-width:720px)
   {
     .button2{
-        width: auto;
+        width: 250;
         height: 70px;
-        margin: 10px;
-        padding: 10px;
+        margin: 20px;
+        padding: 20px;
     }
   }
