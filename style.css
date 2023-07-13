@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: ;
+    box-sizing: border-box ;
 }
 body{
     background-color: rgb(0, 0, 33);
@@ -12,7 +12,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30px;
+    height: 60px;
     font-size: large;
     background-color: rgb(18, 18, 62) ;
     padding: 15px;
@@ -36,26 +36,71 @@ nav ul li{
 }
 nav ul li :hover{
    color: rgb(0, 0, 33);
-   background-color: white;
+   background-color: rgb(212, 207, 207);
+   border: 2px ;
+   font-size: 1rem;
+    border-radius: 4px;
+    transition-delay: 0.5s;
+    
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px;;
+    padding: 10px;
 }
 nav ul li .a :hover{
     color: white;
-    background-color: rgb(153,153,226);
+    background-color: silver;
     font-size: 1.04rem;
-    border: 2px solid white;
-    border-radius: 30px;
-    animation-delay: 5s;
-    transition-delay: 10s;
+    
 }
 #element{
     color: aqua;
 }
+
+.button{
+   display: flex;
+}
+.button1{
+    background-color: rgb(225 29 72);
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid rgb(225 29 72);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.button2{
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button .button1:hover{
+    background-color: darkred;
+    color: white;
+    transition-delay: 0.5s;
+}
+.button2:hover{
+    background-color: orange;
+    color: white;
+    transition-delay: 0.5s;
+    
+}
+
+.milestone{
+    height: 100px;
+    width: 100px;
+}
+
+
 .first-section{
     display: flex;
     flex-direction: row-reverse;
@@ -90,11 +135,12 @@ h1{
     
 }
 p{
-    width: 80%;
+    width: 75%;
     margin: 20px;
     color: white;
     padding: 0px;
     margin: 20px;
+    font-style: bold;
 }
 span{
     color:white;
@@ -113,14 +159,20 @@ span{
     
 }
 
-.second-section{
-    max-width: auto;
-    margin-left: 50px;
+.section .second-section{
+    /* max-width: auto; */
+    /* margin-left: 50px; */
     height: 80vh;
+    /* margin-top: 10px; */
+    /* display: flex;
+    flex-direction: column; */
+    
    
     
 }
-
+.second-heading{
+    margin-top: 5px;
+}
 .second-section h1{
    font-size: 3rem;
   
@@ -130,15 +182,16 @@ span{
 
 .second-section .horizontal-line{
     background-color: white;
-    width: 170vh;
+    width: 250vh;
     height: 2px;
-    margin: 56px 70px;
+    margin: 56px 80px;
     display: flex;
     flex-direction: row;
 }
 .second-section .vertical-line{
     display: flex;
     justify-content: start;
+    margin-bottom: 50px;
 }
 .second-section .vertical{
     height: 93px;
@@ -148,12 +201,89 @@ span{
     display: flex;
     justify-content: start;
 }
-
-  .image1{
+/* .first-image1{
     height: 400px;
     width: 400px;
     margin: 30px 10px;
-    
+      
+} */
+.first-image1{
+    height: 250px;
+    width: 400px;
+    margin: 30px 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: start; */
    
-    
+}
+  .image1{
+
+    height: 250px;
+    width: 250px;
+    margin: 40px 60px;
+      display: inline-block;
+      
   }
+
+  .image2{
+    height: 250px;
+    width: 250px;
+    margin: 40px 40px;
+      display: inline-block;
+  }
+  .image3{
+    height: 250px;
+    width: 250px;
+    margin: 40px 40px;
+      display: inline-block;
+  }
+  .image4{
+    height: 250px;
+    width: 280px;
+    margin: 40px 40px;
+      display: inline-block;
+  }
+  .pragraph{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 50px;
+    margin-right: 50px;
+
+  }
+
+  .para-1{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+    
+
+  }
+
+  .para-2{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  }
+  .para-3{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  }
+  .para-4{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-right: 40px;
+  }
+  footer{
+    max-width: auto;
+    
+    height: 233px;
+  }
+  /* .footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  } */
