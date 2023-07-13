@@ -182,7 +182,7 @@ span{
 
 .second-section .horizontal-line{
     background-color: white;
-    width: 250vh;
+    width: 200vh;
     height: 2px;
     margin: 56px 80px;
     display: flex;
@@ -288,28 +288,70 @@ span{
     justify-content: space-evenly;
   } */
 
-  @media (max-width: 360px){
-    .first-section{
+  @media only screen and (max-width: 360px){
+    .section .first-section{
 
-        justify-content:space-around ;
+        justify-content:center;
         align-items: center;
-        flex-direction: row;
+        /* flex-direction: row; */
         width: 360px;
 
     }
   }
 
-  @media only screen and (max-width: 360px){
-   h1{ color: yellow;
-    margin: auto;
-    font-size: 2rem;
-    width: 320px;
+  @media only screen and (max-width: 390px){
+   .main-image{
+     height: 400px;
+     width: 400px;
    }
   }
 
-  @media (max-width: 360px){
+
+
+
+  @media only screen and (max-width: 400px){
+.first-section h1{ color: yellow;
+    margin: ;
+    font-size: 2rem;
+    width: 300px;
+    align-self: center;
+   }
+  }
+
+  @media (max-width: 400px){
     p{
-        width: 320px;
+        width: 300px;
+      height: 160px;
+      align-self: center;
         margin: 10px;
+    }
+  }
+ 
+  @media only screen and (max-width:400px)
+  {
+    .button{
+        width: 350px;
+        align-self: center;
+    }
+  }
+
+
+  @media only screen and (max-width:400px)
+  {
+    .button1{
+        width: auto;
+        height: 70px;
+        margin: 10px;
+        padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width:400px)
+  {
+    .button2{
+        width: auto;
+        height: 70px;
+        margin: 10px;
+        padding: 10px;
     }
   }
