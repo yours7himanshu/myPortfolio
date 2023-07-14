@@ -113,7 +113,8 @@ nav ul li .a :hover{
     
 }
 .second{
-    width: 60%;
+    width: 975px;
+    
 }
 
 
@@ -131,12 +132,14 @@ h1{
     color: yellow;
     margin: 20px;
     font-size: 3rem;
-    width: 85%;
+    width: 766px;
+    height: 142px;
     
 }
 p{
-    width: 75%;
-    margin: 20px;
+    width: 675px;
+    height: 70px;
+    
     color: white;
     padding: 0px;
     margin: 20px;
@@ -182,7 +185,7 @@ span{
 
 .second-section .horizontal-line{
     background-color: white;
-    width: 200vh;
+    width: 1400px;
     height: 2px;
     margin: 56px 80px;
     display: flex;
@@ -297,65 +300,84 @@ span{
         width: 650px;
 
     }
-  }
 
-  @media only screen and (max-width: 720px){
-   .main-image{
-     height: 600px;
-     width: 600px;
-   }
-  }
+    .main-image{
+      height: 325px;
+      width: 325px;
+    }
+.second{
+  width: 540px;
+  height: 555px;
+}
 
-
-
-
-  @media only screen and (max-width: 720px){
-.first-section h1{ color: yellow;
-    margin: ;
-    font-size: 3rem;
-    width: 450px;
-    align-self: center;
-    height: auto;
-   }
-  }
-
-  @media (max-width: 720px){
-    p{
-        width: 500px;
-      height: auto;
+    .first-section h1{ color: yellow;
+      margin:10px ;
       font-size: 1.5rem;
+      width: 275px;
+      height: 105px;
       align-self: center;
-        margin: 10px;
-        margin-bottom: 20px;
-    }
+      height: auto;
+     }
+
+
+     p{
+      width: 275px;
+      height: 105px;
+    font-size: 0.8rem;
+    align-self: center;
+      margin: 10px;
+      margin-bottom: 20px;
   }
- 
-  @media only screen and (max-width:720px)
-  {
-    .button{
-        width: 550px;
-        hieght:auto;
-        align-self: center;
-    }
+
+  .button{
+    width: 275px;
+    height: 105px;
+    align-self: center;
+}
+.button1{
+  width: 120px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px 10px;
+  padding-right: 10px;
+
+  border: none
+  ;
+}
+
+
+
+.button2{
+  width: 120px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px 10px;
+  padding-right: 10px;
+
+  border: none;
+  
+}
+
+.second-section .horizontal-line{
+  height: 1400px;
+  width: 2px;
+  flex-direction: row;
+  
+}
+.second-section .vertical-line{
+  flex-direction: column;
+  justify-content: start;
+}
+.second-section .vertical{
+  height: 1px;
+  width: 93px;
+  margin: 150px auto;
+  background-color: white;  
+  display: flex;
+  justify-content: space-evenly;
+}
   }
 
 
-  @media only screen and (max-width:720px)
-  {
-    .button1{
-        width: 250;
-        height: 70px;
-        margin: 20px;
-        padding: 20px;
-    }
-  }
 
-  @media only screen and (max-width:720px)
-  {
-    .button2{
-        width: 250;
-        height: 70px;
-        margin: 20px;
-        padding: 20px;
-    }
-  }
+
