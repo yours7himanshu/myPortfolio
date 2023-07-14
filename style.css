@@ -7,12 +7,14 @@ body{
     background-color: rgb(0, 0, 33);
     color:white;
     font-family:  'Poppins', sans-serif;
+    overflow: hidden;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 60px;
+    width: auto;
     font-size: large;
     background-color: rgb(18, 18, 62) ;
     padding: 15px;
@@ -55,6 +57,24 @@ nav ul li .a :hover{
     font-size: 1.04rem;
     
 }
+
+.hamburger{
+  display: none ;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: end; */
+
+}
+.bars{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 #element{
     color: aqua;
 }
@@ -113,7 +133,7 @@ nav ul li .a :hover{
     
 }
 .second{
-    width: 975px;
+    width: 975  px;
     
 }
 
@@ -175,9 +195,11 @@ span{
 }
 .second-heading{
     margin-top: 5px;
+    margin-left: ;
 }
 .second-section h1{
    font-size: 3rem;
+   margin-left: 7rem;
   
   
 }
@@ -300,11 +322,34 @@ span{
         width: 650px;
 
     }
+nav ul li{
+  display: none;
+}
+
+
+hr{
+  width: 620px;
+  margin: 20px 20px;
+}
+
 
     .main-image{
-      height: 325px;
-      width: 325px;
+      height: 400px;
+      width: 400px;
     }
+
+.hamburger{
+  display: block;
+  justify-self: end;
+
+}
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
 .second{
   width: 540px;
   height: 555px;
@@ -315,13 +360,14 @@ span{
       font-size: 1.5rem;
       width: 275px;
       height: 105px;
-      align-self: center;
+      
+      align-self:center ;
       height: auto;
      }
 
 
      p{
-      width: 275px;
+      width: 280px;
       height: 105px;
     font-size: 0.8rem;
     align-self: center;
@@ -330,30 +376,34 @@ span{
   }
 
   .button{
-    width: 275px;
-    height: 105px;
+    width: 300px;
+    height: 200px;
     align-self: center;
 }
-.button1{
-  width: 120px;
-  height: 70px;
+.button .button1{
+  width: 190px;
+  height: 60px;
   margin: 10px;
-  padding: 10px 10px;
-  padding-right: 10px;
+  padding: 7px 20px;
 
-  border: none
-  ;
+font-size: 1rem;
+  border: none;
+  border-radius: none;
 }
 
+img .milestone{
+  height: 150px;
+  width: 150px;
+}
 
-
-.button2{
-  width: 120px;
-  height: 70px;
+.button .button2{
+  width: 190px;
+  height: 60px;
   margin: 10px;
-  padding: 10px 10px;
-  padding-right: 10px;
+  padding: 7px 20px;
+  font-size: 1rem;
 
+border-radius: none;
   border: none;
   
 }
