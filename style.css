@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+  
 }
 body{
     background-color: rgb(0, 0, 33);
     color:white;
     font-family:  'Poppins', sans-serif;
-    overflow: hidden;
+    overflow: ;
+    
+}
+header{
+  overflow: hidden;
+}
+
+main{
+  overflow: hidden;
 }
 nav{
     display: flex;
@@ -81,6 +90,9 @@ nav ul li .a :hover{
 
 .button{
    display: flex;
+   height: auto;
+   width: auto;
+   
 }
 .button1{
     background-color: rgb(225 29 72);
@@ -138,13 +150,14 @@ nav ul li .a :hover{
 }
 
 
-hr{
+.hr{
+
     border: 0;
-    background-color:rgb(153,153,226) ;
-    height: 0.1px;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
+    background-color:rgb(153,153,226) ; ;
+    height: 0.1rem;
+    margin: 60px 60px;
+    width: auto;
+    overflow: hidden;
     
 }
 
@@ -152,14 +165,14 @@ h1{
     color: yellow;
     margin: 20px;
     font-size: 3rem;
-    width: 766px;
+    width: 750px;
     height: 142px;
     
 }
 p{
     width: 675px;
     height: 70px;
-    
+    overflow: hidden;
     color: white;
     padding: 0px;
     margin: 20px;
@@ -178,7 +191,8 @@ span{
 .main-image{
     width: 500px;
     height: 500px;
-    align-self: ;
+    align-self:center ;
+    overflow: hidden;
     
 }
 
@@ -195,21 +209,24 @@ span{
 }
 .second-heading{
     margin-top: 5px;
-    margin-left: ;
+    width: 350px;
+    overflow: hidden;
+  height: 60px;
 }
 .second-section h1{
-   font-size: 3rem;
-   margin-left: 7rem;
+   font-size: 1.5rem;
+   margin: 10px 10px;
   
-  
+  align-self: center;
 }
 
 
 .second-section .horizontal-line{
     background-color: white;
-    width: 1400px;
+    width: auto;
+    overflow: ;
     height: 2px;
-    margin: 56px 80px;
+    margin: 56px 50px;
     display: flex;
     flex-direction: row;
 }
@@ -302,11 +319,11 @@ span{
     display: inline-block;
     margin-right: 40px;
   }
-  footer{
+  /* footer{
     max-width: auto;
-    
+    overflow: hidden;
     height: 233px;
-  }
+  } */
   /* .footer{
     display: flex;
     padding: 23px 122px;
@@ -328,8 +345,8 @@ nav ul li{
 
 
 hr{
-  width: 620px;
-  margin: 20px 20px;
+  width: auto;
+  margin: auto;
 }
 
 
