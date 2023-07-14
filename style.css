@@ -369,7 +369,11 @@ hr{
 
 .second{
   width: 540px;
-  height: 555px;
+  height: 450px;
+}
+.hr{
+  margin: 10px;
+
 }
 
     .first-section h1{ color: yellow;
@@ -424,6 +428,9 @@ border-radius: none;
   border: none;
   
 }
+section .second-section{
+  display:flex
+}
 
 .second-section .horizontal-line{
   height: 1400px;
@@ -431,6 +438,15 @@ border-radius: none;
   flex-direction: row;
   
 }
+h1.second-heading{
+  
+  padding-left: 20px;
+  width: 300px;
+  height: auto;
+  align-self: center;
+}
+
+
 .second-section .vertical-line{
   flex-direction: column;
   justify-content: start;
