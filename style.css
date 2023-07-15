@@ -195,6 +195,29 @@ span{
     overflow: hidden;
     
 }
+.container{
+  width: 100vw;
+  hieght:100vh;
+  display: flex;
+  justify-content: space-evenly;
+   flex-wrap:wrap;
+  align-items: ;
+
+}
+
+.cards{
+  width: 360px;
+  height: 420px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  margin:20px;
+}
+
+
 
 .section .second-section{
     /* max-width: auto; */
